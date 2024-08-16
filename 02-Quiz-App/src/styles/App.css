@@ -1,0 +1,61 @@
+.App {
+  @apply max-sm:max-w-[360px] max-md:max-w-[640px] max-lg:max-w-[768px] max-xl:max-w-[1024px] max-w-[1280px] mx-auto h-screen;
+}
+* > * {
+  font-family: "Poppins", sans-serif;
+}
+.btn-1 {
+  @apply bg-primary px-8 py-4 rounded;
+}
+ul li {
+  @apply text-neutral flex items-center  w-full h-20  border-b-[1px] border-[#333];
+}
+ul li label {
+  @apply relative gap-4 w-full font-bold text-2xl h-full flex items-center cursor-pointer;
+  -webkit-transition: all 0.25s linear;
+}
+ul li:hover label {
+  @apply text-accent;
+}
+ul li .check {
+  @apply rounded-full h-[30px] w-[30px];
+  border: 5px solid #aaaaaa;
+  transition: border 0.25s linear;
+  -webkit-transition: border 0.25s linear;
+}
+ul li .check::before {
+  @apply absolute rounded-full h-[15px] w-[15px] top-[32px] left-2 m-auto;
+  content: "";
+  transition: background 0.25s linear;
+  -webkit-transition: background 0.25s linear;
+}
+input[type="radio"]:checked ~ .check {
+  @apply border-[5px] border-secondary;
+}
+input[type="radio"]:checked ~ .check::before {
+  @apply bg-secondary;
+}
+input[type="radio"]:checked ~ .text-primary {
+  @apply text-secondary;
+}
+.checked {
+  @apply border-[5px] border-secondary !important;
+}
+.checked::before {
+  @apply bg-secondary;
+}
+.checkedFalse {
+  @apply border-[5px] border-red-700 !important;
+}
+.checkedFalse::before {
+  @apply bg-red-700;
+}
+.checkedTrue {
+  @apply border-[5px] border-yellow-400 !important;
+}
+.checkedTrue::before {
+  @apply bg-yellow-400;
+}
+.headTital {
+  @apply text-2xl text-[#FFF] font-bold;
+}
