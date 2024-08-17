@@ -1,3 +1,3 @@
 # 02-Quiz-App
  
-**Test**: [https://quiz-application-gray.vercel.app/](https://quiz-application-gray.vercel.app/)
+**Try From this link**: [https://quiz-application-gray.vercel.app/](https://quiz-application-gray.vercel.app/)
