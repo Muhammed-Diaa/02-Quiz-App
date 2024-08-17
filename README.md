@@ -15,7 +15,7 @@ Welcome to the Quiz Application! This project is a web-based quiz platform where
 
 ## Technologies Used
 
-- **Frontend**: React Js with Vite
+- **Frontend**: React Js with Vite / TypeScript
 - **Styling**: CSS with Tailwind
 - **Deployment**: Vercel
 
