@@ -37,7 +37,7 @@ Welcome to the Quiz Application! This project is a web-based quiz platform where
 3. **Run the application**
    ```bash
    npm run dev
-4.Open your browser and navigate to http://localhost:3000 to see the application in action.
+4.Open your browser and navigate to http://localhost:5173 to see the application in action.
 Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
